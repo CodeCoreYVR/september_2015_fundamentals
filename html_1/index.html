@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<!-- the entire HTML document should be put with in the <html> tag -->
+<html>
+  <!-- the <head> tag includes information about the page with out being
+      diplayed directly on the page. -->
+  <head>
+    <title>My first HTML page</title>
+    <!-- charset is an HTML attribute, the value of it is utf-8
+        HTML tags can have 0 or more attribute -->
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS, Playground, CodeCore">
+    <meta name="description" content="HTML class 1 playground file at CodeCore">
+  </head>
+  <!-- The <body> tag includes the main tags that will be display directly
+       on the page -->
+  <body>
+    <a href="http://www.google.com" target="_blank">Google</a>
+    |
+    <a href="http://www.bbc.com">BBC</a>
+    |
+    <a href="contact.html">Contact Us</a>
+    |
+    <!-- this will link to a page called page2.html with in a folder
+         called extra_pages that is within the current folder -->
+    <a href="extra_pages/page2.html">Page 2</a>
+    <h1>My First HTML Page</h1>
+    <h2 id="p-tag-section">All about the &lt;p&gt; tag</h2>
+    <p>Hello, this is my first HTML page</p>
+    <p>Lorem &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &lt; &gt; ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <!-- <br> stands for breaking rule - starts a new line -->
+      <br>
+      Ut enim ad <a href="http://www.google.com">minim veniam</a>, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <hr>
+      <p>&copy; All rights reserverd for our awesome HTML page.</p>
+      <h2>All about the &lt;ul&gt; tag</h2>
+      <!-- <ul> stands for unordered list. You need put <li> elements nested
+          inside it -->
+      <p>My Favourite Languages &amp; Frameworks</p>
+      <ul>
+        <li>Ruby</li>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript
+          <ul>
+            <li>jQuery</li>
+            <li>React.js</li>
+            <li>Underscore.js</li>
+            <li>Angular.js</li>
+          </ul>
+        </li>
+      </ul>
+
+      <h3>Ordered Lists</h3>
+      <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+        <li>Item 5</li>
+      </ol>
+      <table border="2">
+        <thead>
+          <!-- Table Row -->
+          <tr>
+            <!-- Table Heading -->
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>City</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <!-- Table Data -->
+            <td>Tam</td>
+            <td>Kbeili</td>
+            <td>Burnaby</td>
+          </tr>
+          <tr>
+            <td>John</td>
+            <td>Smith</td>
+            <td>Vancouver</td>
+          </tr>
+          <tr>
+            <td colspan="2">Tom</td>
+            <td>Richmond</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Jeff</td>
+            <td>Do</td>
+            <td>Surrey</td>
+          </tr>
+          <tr>
+            <td>Paul</td>
+            <td>Coquitlam</td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="http://dreamatico.com/data_images/car/car-8.jpg" style="width:50%">
+      <img src="images/car-1.jpg" style="width:50%">
+      <a href="#">Top</a>
+      |
+      <a href="#p-tag-section">P Tag Section</a>
+
+  </body>
+</html>
