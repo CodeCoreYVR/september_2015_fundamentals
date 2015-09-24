@@ -1,0 +1,97 @@
+body {
+  background: url("paisley.png");
+}
+
+p {
+  color: rgba(255, 0, 0, 1);
+  font-size: 18px;
+}
+
+.blue {
+  color: blue !important;
+}
+
+#yellow {
+  color: yellow;
+}
+
+p.bigger {
+  font-size: 1.3em;
+}
+
+/* this will target any element that has id of box
+   in theory you should have only a single element on a given page
+   with that id  */
+#box {
+  /* using percentage for width/height make it take that width or height
+      from its parent container */
+  width: 50%;
+  height: 100px;
+  background-color: cyan;
+  border: 3px solid purple;
+  border-radius: 10px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  border-radius: 50%;
+}
+
+.red-box {
+  background-color: red;
+  width: 100px;
+  height: 100px;
+}
+
+/* this targets all h2 elements that has a class special */
+h2.special {
+  color: purple;
+}
+
+p.special {
+  color: yellow;
+  text-decoration: line-through;
+}
+
+/* this targets any element with a class small-white that is nested within
+  another element that has a class red-box */
+.red-box .small-white {
+  color: white;
+}
+
+/* this targets any div elemnt that has a class red-box and an id translucent */
+div.red-box#translucent {
+  opacity: 0.5;
+}
+
+/* In-Class Exercises */
+/* How to Style a <p> element that has a class “abc” and an id “xyz” */
+p.abc#xyz {
+
+}
+
+/* How to style all <p> elements within a <div> with a class “special” */
+div.special p {
+
+}
+
+/* How to style all <li> elements within a <ul> element that has class “special”? */
+ul.special li {
+
+}
+
+a:hover {
+  color: red;
+}
+
+div.special {
+  width: 200px;
+  height: 200px;
+  background-color: brown;
+}
+
+.special .special {
+  color: white;
+}
