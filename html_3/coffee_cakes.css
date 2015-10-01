@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+}
+
+.box {
+  width: 33%;
+  height: auto;
+  display: inline-block;
+  border: 1px solid grey;
+  border-radius: 2px;
+  background-color: #E4E2E2;
+}
+
+.title {
+  text-align: center;
+  color: orange;
+}
+
+.picture {
+  border-top: 1px dashed grey;
+  border-bottom: 1px dashed grey;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+div.picture img {
+  width: 100%;
+}
+
+.yellow {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: yellow;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+div.yellow ul {
+  list-style-type: square;
+}

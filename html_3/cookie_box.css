@@ -1,0 +1,13 @@
+.box {
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  text-align: center;
+}
+
+.cookie img {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top: 200px;
+}

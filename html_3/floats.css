@@ -1,0 +1,39 @@
+p {
+  font-family: "Indie Flower",wingdings, Georgia;
+}
+
+@keyframes switchcolor {
+	from {background-color: red;}
+	to {background-color: yellow;}
+}
+
+
+.small {
+  width: 200px;
+  float: right;
+}
+
+.box {
+  background-color: red;
+  animation-name: switchcolor;
+  animation-duration: 10s;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+p.after {
+  clear: left;
+}
