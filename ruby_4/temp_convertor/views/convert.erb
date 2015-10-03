@@ -1,0 +1,20 @@
+<!-- it's important to give forms in HTML aciton and method attributes
+    those should match a verb / url combitation on the server side. The verb
+    should match the method and url should match the action.
+    Acceptable methods are: get & post -->
+<form action="/convert" method="post">
+  <div>
+    <label for="temp">Temperature in C&deg;</label>
+    <!-- When you set the `name` attribute for an input field. We receive this
+         on the server side through HTTP paramters. In Sinatra we get access to
+         the paramters through `params` object which is a Hash. The key is
+        the `name` attribute below. The value is whatever the user has
+        entered in the field -->
+    <input type="text" id="temp" name="temp_in_c" value="<%= @temp_in_celsius %>">
+  </div>
+  <input type="submit" value="Convert">
+</form>
+
+<div>
+  <%= @temp_in_fahrenheit %>
+</div>
