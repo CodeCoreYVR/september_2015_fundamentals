@@ -3,8 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>Sinatra Applications</title>
+    <link rel="stylesheet" href="/normalize.css">
+    <link rel="stylesheet" href="/style.css">
   </head>
   <body>
+    <a href="/">Home</a>
+    |
+    <a href="/convert">Convert Temperature</a>
+    |
+    <a href="/pick_random">Pick Random</a>
+    |
+    <a href="/contact">Contact Us</a>
+    |
+    <a href="/all_contacts">All Contacts</a>
+    |
+    You last visited: <%= session[:last_visited_user] %>
+    |
+    You visited the home page <%= session[:counter] %> times
+    <hr>
     <%= yield %>
   </body>
 </html>

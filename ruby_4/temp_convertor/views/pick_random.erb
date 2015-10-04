@@ -1,0 +1,12 @@
+<h1>Pick a Winner</h1>
+<form action="/pick_random" method="post">
+  <div>
+    <label for="names">Names</label>
+    <textarea id="names" name="names_input" ><%= @random_names %></textarea>
+  </div>
+  <input type="submit" value="Pick Winner">
+</form>
+
+<div>
+  <%= @winner %>
+</div>
